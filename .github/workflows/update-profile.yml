@@ -1,0 +1,33 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+    - cron: "47 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Refresh videos block
+        if: github.event.schedule != '47 */3 * * *'
+        run: python3 scripts/update_videos.py README.md
+      - name: Redraw skyline
+        run: python3 scripts/build_hero.py assets
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- README.md assets; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets
+          git commit -m "chore: update videos and skyline"
+          git push

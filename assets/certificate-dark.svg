@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 540" width="1280" height="540" role="img" aria-labelledby="ct">
+<title id="ct">A joke certificate claiming this profile was made entirely by hand and that Claude definitely did not help.</title>
+<style>
+.serif{font-family:Georgia,"Times New Roman","Liberation Serif",serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+@keyframes r{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes sign{to{stroke-dashoffset:0}}
+@keyframes slam{0%{opacity:0;transform:translate(1040px,425px) rotate(-14deg) scale(3.2)}70%{opacity:1;transform:translate(1040px,425px) rotate(-14deg) scale(.93)}100%{opacity:.92;transform:translate(1040px,425px) rotate(-14deg) scale(1)}}
+.row{opacity:0;animation:r .5s ease-out forwards}.sig{stroke-dasharray:900;stroke-dashoffset:900;animation:sign 1.5s ease-in-out 1.3s forwards}
+.stamp{opacity:0;transform:translate(1040px,425px) rotate(-14deg);animation:slam .36s cubic-bezier(.3,0,.8,.3) 2.8s forwards}
+@media (prefers-reduced-motion:reduce){.row,.sig,.stamp{animation:none;opacity:1;stroke-dashoffset:0}.stamp{opacity:.92}}
+</style>
+<rect x="1" y="1" width="1278" height="538" rx="20" fill="#11131f" stroke="#d9b566" stroke-width="2"/>
+<rect x="16" y="16" width="1248" height="508" rx="12" fill="none" stroke="#d9b566" stroke-opacity=".5"/>
+<g class="serif">
+<text x="640" y="72" text-anchor="middle" font-size="16" letter-spacing="6" fill="#d9b566">OFFICIAL AND LEGALLY MEANINGLESS</text>
+<text x="640" y="124" text-anchor="middle" font-size="44" font-weight="700" fill="#f5efe0">Certificate of Human Authorship</text>
+<g font-size="23"><g class="row" style="animation-delay:0.25s"><text x="130" y="196" fill="#f5efe0">Lines of this profile written by Claude</text><line x1="130" x2="1150" y1="207" y2="207" stroke="#a8a39a" stroke-dasharray="2 6"/><text x="1150" y="196" text-anchor="end" fill="#d9b566" font-weight="700">0*</text></g><g class="row" style="animation-delay:0.47s"><text x="130" y="242" fill="#f5efe0">Times it said “You're absolutely right!”</text><line x1="130" x2="1150" y1="253" y2="253" stroke="#a8a39a" stroke-dasharray="2 6"/><text x="1150" y="242" text-anchor="end" fill="#d9b566" font-weight="700">0</text></g><g class="row" style="animation-delay:0.69s"><text x="130" y="288" fill="#f5efe0">Skyline windows placed by hand, one at a time</text><line x1="130" x2="1150" y1="299" y2="299" stroke="#a8a39a" stroke-dasharray="2 6"/><text x="1150" y="288" text-anchor="end" fill="#d9b566" font-weight="700">545</text></g><g class="row" style="animation-delay:0.91s"><text x="130" y="334" fill="#f5efe0">Hours of sleep lost doing all of this manually</text><line x1="130" x2="1150" y1="345" y2="345" stroke="#a8a39a" stroke-dasharray="2 6"/><text x="1150" y="334" text-anchor="end" fill="#d9b566" font-weight="700">all of them</text></g></g>
+<path class="sig" fill="none" stroke="#f5efe0" stroke-width="2.6" stroke-linecap="round" d="M136 432c18-44 32-60 38-50s-20 62-14 62 26-40 36-38-6 30 4 30 18-24 28-22-4 22 8 20 20-22 32-18 0 18 14 14 34-20 60-16 44 8 96-8"/>
+<line x1="130" x2="520" y1="456" y2="456" stroke="#a8a39a"/>
+<text x="130" y="480" font-size="16" fill="#a8a39a">Amer, a definitely organic human</text>
+<text x="130" y="507" font-size="15" font-style="italic" fill="#a8a39a">* Claude was in the room strictly for emotional support.</text>
+</g>
+<g class="stamp" fill="none" stroke="#ff5c6c">
+<circle r="82" stroke-width="5"/><circle r="70" stroke-width="1.5"/>
+<g class="mono" fill="#ff5c6c" stroke="none" text-anchor="middle" font-weight="800">
+<text y="-12" font-size="34">100%</text><text y="22" font-size="27">HUMAN</text><text y="46" font-size="12">(trust me)</text>
+</g>
+</g>
+</svg>
