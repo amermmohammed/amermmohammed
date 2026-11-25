@@ -17,9 +17,9 @@
 <!-- videos:start style=cards -->
 <table>
 <tr>
+<td width="33%" valign="top"><a href="https://www.youtube.com/watch?v=ejH1dROc-rA"><img src="https://i.ytimg.com/vi/ejH1dROc-rA/mqdefault.jpg" alt="An external API in a Shopware app: a nightly sync with Symfony" width="100%"></a><br><a href="https://www.youtube.com/watch?v=ejH1dROc-rA">An external API in a Shopware app: a nightly sync with Symfony</a></td>
 <td width="33%" valign="top"><a href="https://www.youtube.com/watch?v=CGFFUEQOvw8"><img src="https://i.ytimg.com/vi/CGFFUEQOvw8/mqdefault.jpg" alt="A page in the Shopware admin: app modules and the Meteor Admin SDK" width="100%"></a><br><a href="https://www.youtube.com/watch?v=CGFFUEQOvw8">A page in the Shopware admin: app modules and the Meteor Admin SDK</a></td>
 <td width="33%" valign="top"><a href="https://www.youtube.com/watch?v=2D_NS9BxWqM"><img src="https://i.ytimg.com/vi/2D_NS9BxWqM/mqdefault.jpg" alt="A Shopware app server with Symfony: how the shop registers" width="100%"></a><br><a href="https://www.youtube.com/watch?v=2D_NS9BxWqM">A Shopware app server with Symfony: how the shop registers</a></td>
-<td width="33%" valign="top"><a href="https://www.youtube.com/watch?v=l23Qn9WJ5Pw"><img src="https://i.ytimg.com/vi/l23Qn9WJ5Pw/mqdefault.jpg" alt="How does a Shopware app work? Your first app in one file" width="100%"></a><br><a href="https://www.youtube.com/watch?v=l23Qn9WJ5Pw">How does a Shopware app work? Your first app in one file</a></td>
 </tr>
 </table>
 <!-- videos:end -->
